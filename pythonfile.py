@@ -86,5 +86,5 @@ def reverse(n):
     while n>0:
         b=n%10
         n=n//10
-        print(b,end=" ")
+        print(b,end="")
         
