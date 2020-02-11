@@ -1,6 +1,6 @@
 from pythonfile import high,minm,prime,count_no,even,odd,sum_no,reverse
 def number(n):
-    print("highest number:",high(n))
+    print("highest number",high(n))
 
     print("minmum number:",minm(n))
 
@@ -15,7 +15,7 @@ def number(n):
     print("odd number:",end="")
     odd(n)
 
-    print("sum of the number:",sum_no(n))
+    print("sum of number:",sum_no(n))
     print("reverse of number:",end="")
     reverse(n)
     
