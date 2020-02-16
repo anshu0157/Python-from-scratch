@@ -1,4 +1,4 @@
-'''
+
 def btod(n):
     a=1
     s=0
@@ -8,7 +8,6 @@ def btod(n):
         a*=2
         n=n//10
     return s
-'''
 '''
 def dtob(n):
     a=1
