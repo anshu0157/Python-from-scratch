@@ -19,3 +19,6 @@ for i in range(4):
         m2.append(3*i+j)
     m1.append(m2)
 print(m1)
+#creating matrix by list comprehension
+matt=[[3*i+j for j in range(3)] for i in range(4)]
+print(matt)
