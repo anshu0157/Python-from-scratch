@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-'''
+
 class E(metaclass=ABCMeta):
     def __init__(self,e_id):
         self.e_id=e_id
@@ -9,12 +9,14 @@ class E(metaclass=ABCMeta):
     @abstractmethod
     def ms(self):
         return self.e_id
+    
+    
 class T(E):
-    def __init__(self,e_id,b_name):
+    def __init__(self,e_id,bname):
         super().__init__(e_id)
-        self.__b_name=b_name
+        self.__bname=bname
     def getn(self):
-        return self.__b_name
+        return self.__bname
         
 d=E(3)
 b=T(2,'anshu')
@@ -24,7 +26,7 @@ print(b.getn())
 '''
 class shape(ABC):
     def diag(self):
-        print("this is base method")
+        print("this is base method of class shape")
     @abstractmethod
     def poly(self):
         pass
@@ -54,6 +56,7 @@ class square(shape):
         return self.__side1*self.__side1
     def perimeter(self):
         return 4*self.__side1
+
 class rectangle(shape):
     def __init__(self,length,breadth):
         self.__length=length
