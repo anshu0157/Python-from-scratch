@@ -1,6 +1,3 @@
-st="what is your name"
-
-
 st=input("enter the string")
 b=list(st)
 c=len(b)
